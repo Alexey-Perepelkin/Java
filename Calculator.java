@@ -30,7 +30,7 @@ public class Calculator {
             if (y!=0) {
                 result= x/y;}
             else {
-                System.out.println("Ошибка,деление на ноль!!!");}
+                System.out.println("Ошибка!деление на ноль!!!");}
             break;
         }
         return result;
