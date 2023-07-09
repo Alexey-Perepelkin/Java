@@ -37,7 +37,7 @@ public class Sample01 {
      * 3. Если введено revert, удаляет предыдущую введенную строку из памяти.
      */
     public static void task1(){
-        Deque deque = new ArrayDeque();
+        Deque <String>deque = new ArrayDeque<>();
         while (true){
             System.out.println("Введите строку: ");
             String str = scanner.nextLine();
