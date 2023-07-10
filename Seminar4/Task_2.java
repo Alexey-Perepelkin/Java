@@ -1,4 +1,7 @@
-//1. Пусть дан LinkedList с несколькими элементами. Реализуйте метод, который вернет “перевернутый” список.
+// 2 *. Реализуйте очередь с помощью LinkedList со следующими методами:
+// enqueue() - помещает элемент в конец очереди,
+// dequeue() - возвращает первый элемент из очереди и удаляет его,
+// first() - возвращает первый элемент из очереди, не удаляя.
 
 
 import java.util.LinkedList;
@@ -28,11 +31,7 @@ public class Task_2 {
         myList.print();
         myList.first(1);
         myList.print();
-        // System.out.printf("%n");
-        // System.out.println("вышло");  
-        // for (Object o : list){
-        //     System.out.printf(o+", ");
-        //}
+        
       
     }
 }

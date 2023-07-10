@@ -23,7 +23,7 @@ public class MyQueue <E> {
     }
 // Возвращает первый элемент из очереди и удаляет его
     public void dequeue(int i){
-        System.out.printf("Удаление %d элемента, значение %d %n",i, elements.remove(i) );
+        System.out.printf("Удаление %d элемента, значение %d %n",i, elements.pollFirst() );
         // elements.remove(i);
         
     }
